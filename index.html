@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de test et blog d'information technique pour validation Google AdSense.">
+    <title>Tech Insights & Articles - Mon Site Web</title>
+
+    <!-- GOOGLE ADSENSE SCRIPT -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4957989598403654"
+     crossorigin="anonymous"></script>
+
+    <!-- Google Fonts & Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white shadow-sm border-b sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-indigo-600">DevPulse</a>
+            <nav class="space-x-6 hidden md:block">
+                <a href="#articles" class="hover:text-indigo-600 transition">Articles</a>
+                <a href="#about" class="hover:text-indigo-600 transition">À propos</a>
+                <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-6xl mx-auto px-4 py-8 flex-grow">
+
+        <!-- Hero Section -->
+        <section class="bg-indigo-600 text-white rounded-2xl p-8 md:p-12 mb-10 shadow-lg text-center md:text-left">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-4">Bienvenue sur DevPulse</h1>
+            <p class="text-indigo-100 text-lg max-w-2xl mb-6">Votre ressource pour les meilleures pratiques en développement web, optimisation de performance, et intégration d'outils numériques.</p>
+            <a href="#articles" class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold shadow hover:bg-gray-100 transition inline-block">Explorer les articles</a>
+        </section>
+
+        <!-- AdSense Ad Placement Placeholder (Optional display slot) -->
+        <div class="w-full my-6 p-4 bg-gray-200 border border-dashed border-gray-400 rounded-lg text-center text-gray-500 text-sm">
+            Espace Publicitaire (AdSense)
+        </div>
+
+        <!-- Articles Grid -->
+        <section id="articles" class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-gray-900 border-l-4 border-indigo-600 pl-3">Derniers Articles</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <!-- Article 1 -->
+                <article class="bg-white rounded-xl shadow-md overflow-hidden border hover:shadow-lg transition">
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-indigo-600 uppercase tracking-wider">Web Dev</span>
+                        <h3 class="text-xl font-bold mt-2 mb-3">Comment optimiser les performances d'un site web en 2026</h3>
+                        <p class="text-gray-600 text-sm mb-4">Découvrez les techniques incontournables pour réduire le temps de chargement de vos pages web et améliorer l'expérience utilisateur.</p>
+                        <a href="#" class="text-indigo-600 font-medium text-sm hover:underline">Lire la suite &rarr;</a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="bg-white rounded-xl shadow-md overflow-hidden border hover:shadow-lg transition">
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-indigo-600 uppercase tracking-wider">SEO & Monetization</span>
+                        <h3 class="text-xl font-bold mt-2 mb-3">Guide complet pour la monétisation avec AdSense</h3>
+                        <p class="text-gray-600 text-sm mb-4">Apprenez à valider rapidement votre site sur Google AdSense et à respecter toutes les règles relatives à la confidentialité.</p>
+                        <a href="#" class="text-indigo-600 font-medium text-sm hover:underline">Lire la suite &rarr;</a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="bg-white rounded-xl shadow-md overflow-hidden border hover:shadow-lg transition">
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-indigo-600 uppercase tracking-wider">Hosting</span>
+                        <h3 class="text-xl font-bold mt-2 mb-3">Déployer son site gratuitement sur Netlify</h3>
+                        <p class="text-gray-600 text-sm mb-4">Un tutoriel pas à pas pour configurer votre projet, lier votre dépôt GitHub et activer le SSL gratuitement sur Netlify.</p>
+                        <a href="#" class="text-indigo-600 font-medium text-sm hover:underline">Lire la suite &rarr;</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- About & Privacy Info Section (Crucial for AdSense Review) -->
+        <section id="about" class="bg-white p-8 rounded-xl shadow-md border mb-12">
+            <h2 class="text-2xl font-bold mb-4">À propos de notre plateforme</h2>
+            <p class="text-gray-600 mb-4">DevPulse est une plateforme indépendante conçue pour fournir des tutoriels techniques, des actualités sur le développement web et des guides pratiques. Nous nous engageons à respecter les normes de confidentialité et à proposer un contenu de qualité.</p>
+            <h3 class="text-lg font-semibold mb-2">Politique relatives aux cookies</h3>
+            <p class="text-gray-600 text-sm">Ce site peut utiliser des cookies Google AdSense pour diffuser des annonces basées sur les visites précédentes des utilisateurs. Vous pouvez en savoir plus en consultant nos mentions légales.</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 mt-auto">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm space-y-4 md:space-y-0">
+            <div>
+                &copy; 2026 DevPulse. Tous droits réservés.
+            </div>
+            <div class="space-x-4">
+                <a href="#" class="hover:text-white transition">Politique de Confidentialité</a>
+                <span>•</span>
+                <a href="#" class="hover:text-white transition">Conditions d'Utilisation</a>
+                <span>•</span>
+                <a href="#" class="hover:text-white transition">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
